@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><span class="title">Todo</span>List</h1>
+    <div class="inputDiv">
+    	   <input id="todo-item" type="text" class="input" placeholder="What Do You Want to Do...">
+           <button onclick="addtodo()" class="add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+           <button onclick="deleteall()" class="add"><i class="fa fa-trash" aria-hidden="true"></i></button>
+    </div>
+    <div class="container">
+        <ul  id="list">
+
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
